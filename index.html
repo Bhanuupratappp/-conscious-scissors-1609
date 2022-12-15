@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            gap: 250px;
+            height: 50px;
+        }
+
+        #navbar>div {
+            display: flex;
+            gap: 50px;
+            justify-content: space-between;
+            font-weight: bold;
+            font-family: 'Bree Serif', serif;
+            font-family: 'Fugaz One', cursive;
+        }
+
+        #navbar img {
+            width: 180px;
+        }
+
+        #demo {
+            padding: 10px 25px 10px 25px;
+            background-color: rgb(255, 144, 33);
+            font-family: 'Bree Serif', serif;
+            font-family: 'Fugaz One', cursive;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+
+        #signup {
+            padding: 10px 25px 10px 25px;
+            background-color: rgb(70, 197, 202);
+            font-family: 'Bree Serif', serif;
+            font-family: 'Fugaz One', cursive;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            color: white;
+
+
+        }
+
+        #about {
+            text-align: center;
+            font-size: 40px;
+            margin-top: 100px;
+        }
+
+        #about>p {
+            font-size: 30px;
+            font-weight: 100;
+            margin-bottom: 50px;
+        }
+
+        #about input {
+            border: none;
+            padding: 20px 200px 20px 20px;
+        }
+
+        #insideInput {
+            border: 3px solid rgb(255, 153, 27);
+            display: inline;
+            padding: 5px 20px 20px 20px;
+            border-radius: 40px;
+            margin-top: 100px;
+        }
+
+        #about button {
+            border: none;
+            padding: 10px 30px 10px 30px;
+            border-radius: 40px;
+            background-color: rgb(70, 197, 202);
+            color: white;
+
+        }
+
+        #about button:hover {
+            background-color: rgb(255, 153, 27);
+            padding: 12px 35px 12px 35px;
+
+
+        }
+
+        #free {
+            display: flex;
+            font-size: 20px;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        hr+div {
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Merriweather Sans', sans-serif;
+        }
+
+        .next {
+            display: flex;
+            gap: 25px;
+
+        }
+
+        .next img {
+            width: 150px;
+        }
+
+        .next1 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            color: rgb(50, 55, 56);
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-around;
+            line-height: 25px;
+            
+
+
+        }
+
+        .main>div {
+
+            border-radius: 7px;
+            padding: 30px;
+            margin-top: 50px;
+            font-family: 'Merriweather Sans', sans-serif;
+            width: 700px;
+            margin-left: 30px;
+            margin-right: 30px;
+            box-shadow: rgb(70, 197, 202, 0.5) -5px 5px, rgb(70, 197, 202, 0.3) -10px 10px, rgb(70, 197, 202, 0.2) -15px 15px, rgb(70, 197, 202, 0.1) -20px 20px, rgb(70, 197, 202, 0.05) -25px 25px;
+
+        }
+
+        .main button {
+            padding: 15px 40px 15px 40px;
+            background-color: rgb(255, 144, 33);
+            color: white;
+            font-weight: bolder;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            margin-top: 30px;
+        }
+
+        .main button:hover {
+            background-color: white;
+            color: rgb(255, 144, 33);
+            border: 1px solid rgb(255, 144, 33);
+        }
+
+        .main h1 {
+            font-size: 20px;
+            color: rgb(48, 48, 48);
+        }
+
+
+        #mid{
+            display: flex;
+            gap: 30px;
+           
+            justify-content: space-evenly;
+
+        }
+        #mid img{
+            width: 100px;
+        }
+        .mid{
+            text-align: center;
+            
+        }
+        .mid1{
+             
+            background-image: url(./logo/2.jpg);
+         margin-top: 100px;
+         padding: 50px;
+         box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+            
+            
+            /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+        }
+        #hr1{
+            margin-top: 100px;
+        }
+
+
+
+
+       
+
+
+
+        
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <img src="./logo/final logo.jpeg" alt="">
+        <div>
+            <p>Products</p>
+            <p>Pricing</p>
+            <p>Resources</p>
+            <p>Free Tools</p>
+            <p>Blog</p>
+            <p>Login</p>
+
+            <button id="demo">Free Demo</button>
+            <button id="signup">Free Signup</button>
+
+        </div>
+
+    </div>
+
+    <div id="about">
+        <h1>Market better. Sell faster.<br> Support Smarter</h1>
+        <p>One plateform for all your Marketing, Sales, and Support teams</p>
+        <div id="insideInput">
+            <input type="text" placeholder="Your email address">
+            <button>Get Started</button>
+        </div>
+        <div id="free">
+            <p>~Free for 15 users</p>
+            <p>~No credit card required</p>
+
+        </div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/banner-image.svg" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/p-logos/neilpatel.png" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/p-logos/forbs.png" alt="">
+
+        <img src="https://cdn5.engagebay.com/new/assets/img/p-logos/inc.png" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/p-logos/enterpreneur.png" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/p-logos/techcrunch.png" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/p-logos/jeffbullas.png" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/p-logos/business.png" alt="">
+    </div>
+
+    <div>
+
+    </div>
+
+    <hr>
+    <div>
+        <h1>Single Solution for All Your Activities</h1>
+        <p>Identify new opportunities, convert visitors, deliver customer happiness, and more!</p>
+    </div>
+    <div class="main">
+        <div>
+            <div>
+                <div class="next">
+                    <div>
+                        <h1>Marketing Automation</h1>
+                        <p>Save time, nurture your audience and automate routine, manual tasks. Increase your efficiency
+                            and productivity without compromising on quality</p>
+                    </div>
+                    <div><img src="https://cdn5.engagebay.com/new/assets/img/icons/marketing-automation.svg" alt="">
+                    </div>
+
+
+                </div>
+                <hr>
+                <h1>POPULAR FEATURES</h1>
+            </div>
+            <div>
+                <div class="next1">
+                    <p>~Forms & Landing Pages</p>
+                    <p>~Email Sequences</p>
+                    <p>~Marketing Automation</p>
+                    <p>~Web Analytics</p>
+                </div>
+                <button>Get Started</button>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <div class="next">
+                    <div>
+                        <h1>CRM & Sales Bay</h1>
+
+                        <p>Organize all your email contacts, track deals and the sales pipeline to grow your sales.
+                            Build meaningful customer relationships that stay for life</p>
+                    </div>
+                    <div><img src="https://cdn5.engagebay.com/new/assets/img/icons/crm.svg" alt=""></div>
+
+
+                </div>
+                <hr>
+                <h1>POPULAR FEATURES</h1>
+            </div>
+            <div>
+                <div class="next1">
+                    <p>~360 o Customer View</p>
+                    <p>~Sales Automation</p>
+                    <p>~Appointment Scheduling</p>
+                    <p>~Deal Management</p>
+                </div>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main">
+        <div class="main1">
+            <div>
+                <div class="next">
+                    <div>
+                        <h1>Helpdesk Software</h1>
+                        <p>Resolve queries faster and deliver exceptional support to delight your customers</p>
+                    </div>
+                    <div><img src="https://cdn5.engagebay.com/new/assets/img/icons/helpdesk.svg" alt=""></div>
+
+
+                </div>
+                <hr>
+                <h1>POPULAR FEATURES</h1>
+            </div>
+            <div>
+                <div class="next1">
+                    <p>~Ticket Management</p>
+                    <p>~Views</p>
+                    <p>~Macro</p>
+                    <p>~Ticket Automation</p>
+                </div>
+                <button>Get Started</button>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <div class="next">
+                    <div>
+                        <h1>Live Chat Software</h1>
+
+                        <p>Boost customer happiness and increase conversions by offering instant help when your
+                            customers need it</p>
+                    </div>
+                    <div><img src="https://cdn5.engagebay.com/new/assets/img/icons/livechat.svg" alt=""></div>
+
+
+                </div>
+                <hr>
+                <h1>POPULAR FEATURES</h1>
+            </div>
+            <div>
+                <div class="next1">
+                    <p>~Instant Support</p>
+                    <p>~Chat Form Customisation</p>
+                    <p>~Shortcuts</p>
+                    <p>~Notifications</p>
+                </div>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </div>
+
+
+
+<hr id="hr1">
+
+    
+
+    
+    
+<div class="mid1">
+    <h2 class="mid">HAPPY CUSTOMERS SHARE GREAT REVIEWS ON G2</h1>
+    <div id="mid">
+        <img src="https://cdn5.engagebay.com/new/assets/img/Awards-2022/CRM_HighPerformer_AsiaPacific_HighPerformer.svg" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/Awards-2022/CRM_HighPerformer_Europe_HighPerformer.svg" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/Awards-2022/CRM_HighPerformer_HighPerformer.svg" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/Awards-2022/CRM_HighPerformer_Small-Business_HighPerformer.svg" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/Awards-2022/CRM_MomentumLeader_Leader.svg" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/Awards-2022/EmailTracking_HighPerformer_HighPerformer.svg" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/Awards-2022/EmailTracking_HighPerformer_Mid-Market_HighPerformer.svg" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/Awards-2022/EmailTracking_HighPerformer_Small-Business_HighPerformer.svg" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/Awards-2022/HelpDesk_EasiestAdmin_EaseOfAdmin.svg" alt="">
+        <img src="https://cdn5.engagebay.com/new/assets/img/Awards-2022/OnlineFormBuilder_FastestImplementation_Small-Business_GoLiveTime.svg" alt="">
+    </div>
+</div>
+</body>
+
+</html>
