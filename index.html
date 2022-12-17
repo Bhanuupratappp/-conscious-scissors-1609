@@ -6,204 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #navbar {
-            display: flex;
-            width: 100%;
-            justify-content: space-around;
-            gap: 250px;
-            height: 50px;
-        }
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 
-        #navbar>div {
-            display: flex;
-            gap: 50px;
-            justify-content: space-between;
-            font-weight: bold;
-            font-family: 'Bree Serif', serif;
-            font-family: 'Fugaz One', cursive;
-        }
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
-        #navbar img {
-            width: 180px;
-        }
-
-        #demo {
-            padding: 10px 25px 10px 25px;
-            background-color: rgb(255, 144, 33);
-            font-family: 'Bree Serif', serif;
-            font-family: 'Fugaz One', cursive;
-            font-weight: bold;
-            border: none;
-            border-radius: 5px;
-            color: white;
-        }
-
-        #signup {
-            padding: 10px 25px 10px 25px;
-            background-color: rgb(70, 197, 202);
-            font-family: 'Bree Serif', serif;
-            font-family: 'Fugaz One', cursive;
-            font-weight: bold;
-            border: none;
-            border-radius: 5px;
-            color: white;
-
-
-        }
-
-        #about {
-            text-align: center;
-            font-size: 40px;
-            margin-top: 100px;
-        }
-
-        #about>p {
-            font-size: 30px;
-            font-weight: 100;
-            margin-bottom: 50px;
-        }
-
-        #about input {
-            border: none;
-            padding: 20px 200px 20px 20px;
-        }
-
-        #insideInput {
-            border: 3px solid rgb(255, 153, 27);
-            display: inline;
-            padding: 5px 20px 20px 20px;
-            border-radius: 40px;
-            margin-top: 100px;
-        }
-
-        #about button {
-            border: none;
-            padding: 10px 30px 10px 30px;
-            border-radius: 40px;
-            background-color: rgb(70, 197, 202);
-            color: white;
-
-        }
-
-        #about button:hover {
-            background-color: rgb(255, 153, 27);
-            padding: 12px 35px 12px 35px;
-
-
-        }
-
-        #free {
-            display: flex;
-            font-size: 20px;
-            gap: 20px;
-            justify-content: center;
-        }
-
-        hr+div {
-            text-align: center;
-            font-size: 20px;
-            font-family: 'Merriweather Sans', sans-serif;
-        }
-
-        .next {
-            display: flex;
-            gap: 25px;
-
-        }
-
-        .next img {
-            width: 150px;
-        }
-
-        .next1 {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            color: rgb(50, 55, 56);
-        }
-
-        .main {
-            display: flex;
-            justify-content: space-around;
-            line-height: 25px;
-            
-
-
-        }
-
-        .main>div {
-
-            border-radius: 7px;
-            padding: 30px;
-            margin-top: 50px;
-            font-family: 'Merriweather Sans', sans-serif;
-            width: 700px;
-            margin-left: 30px;
-            margin-right: 30px;
-            box-shadow: rgb(70, 197, 202, 0.5) -5px 5px, rgb(70, 197, 202, 0.3) -10px 10px, rgb(70, 197, 202, 0.2) -15px 15px, rgb(70, 197, 202, 0.1) -20px 20px, rgb(70, 197, 202, 0.05) -25px 25px;
-
-        }
-
-        .main button {
-            padding: 15px 40px 15px 40px;
-            background-color: rgb(255, 144, 33);
-            color: white;
-            font-weight: bolder;
-            border: none;
-            border-radius: 5px;
-            font-size: 15px;
-            margin-top: 30px;
-        }
-
-        .main button:hover {
-            background-color: white;
-            color: rgb(255, 144, 33);
-            border: 1px solid rgb(255, 144, 33);
-        }
-
-        .main h1 {
-            font-size: 20px;
-            color: rgb(48, 48, 48);
-        }
-
-
-        #mid{
-            display: flex;
-            gap: 30px;
-           
-            justify-content: space-evenly;
-
-        }
-        #mid img{
-            width: 100px;
-        }
-        .mid{
-            text-align: center;
-            
-        }
-        .mid1{
-             
-            background-image: url(./logo/2.jpg);
-         margin-top: 100px;
-         padding: 50px;
-         box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
-            
-            
-            /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
-        }
-        #hr1{
-            margin-top: 100px;
-        }
-
-
-
-
-       
-
-
-
-        
-    </style>
 </head>
 
 <body>
@@ -389,7 +196,537 @@
         <img src="https://cdn5.engagebay.com/new/assets/img/Awards-2022/HelpDesk_EasiestAdmin_EaseOfAdmin.svg" alt="">
         <img src="https://cdn5.engagebay.com/new/assets/img/Awards-2022/OnlineFormBuilder_FastestImplementation_Small-Business_GoLiveTime.svg" alt="">
     </div>
+
+
 </div>
+
+
+
+<div class="view">
+    <h1 >Create Your Own Views </h1>
+    <p>From identifying new opportunities to delivering customer happiness</p>
+</div>
+
+<div id="view">
+    <h2>Marketing Software</h2>
+    <h2>Free CRM Features</h2>
+    <h2>Sales Software </h2>
+    <h2>Help Desk Software</h2>
+</div>
+
+
+<div class="view1">
+    <!-- append here -->
+</div>
+ <!-- <div>
+    <h1>Market Your Business Like the World's Best Companies</h1>
+    <p>With our comprehensive set of Marketing tools, including Email Marketing, Marketing Automation, Email Template Builder, Landing Page Builder, Lead Generation tools, Social Suite & more, your marketing team can take things to the next level.</p>
+   
+    <h3>POPULAR MARKETING FEATURES</h3>
+   <div>
+    <p>~Email Marketing</p>
+    <p>~Lead Generation tools </p>
+    <p>~Marketing Automation</p>
+    <p>~Landing Pages</p>
+   </div> 
+    <button>Explore Marketing Software</button>
+    
+   </div>
+   
+  <div><img src="https://cdn5.engagebay.com/new/assets/img/tabs/home/marketing_software.png" alt="">
+ </div>
+</div> --> 
+
+
+<div id="client">
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./logo/slide1.jpg" alt="">
+            <p>"A full-featured marketing platform. With this, you have all you need to get started and succeed. Having all in one platform<br> make any marketer job much easier."</p>
+          <h3>Santiago B.</h3>
+          <p>Southern Europe Director, Triptease</p>
+        </div>
+          <div class="swiper-slide">
+            <img src="./logo/slide2.jpg" alt="">
+            <p>"The software is easy to set up and implement. I feel EngageBay is quickly becoming a marketing automation competitor to the premium <br>SAAS offerings. EngageBay's customer support has been very responsive and helped me resolve an<br> implementation issue almost immediately."</p>
+            <h3>Shawn L.</h3>
+            <p>Marketing Manager, List Biological Laboratories, Inc</p></div>
+          <div class="swiper-slide">
+            <img src="./logo/slide3.jpg" alt="">
+            <p>"EngageBay has everything I need when it comes to managing customer relations and sales activities. The features I most frequently use<br> are automation for sending emails, managing sales, and marketing automation. Plus, having a built-in live chat and<br> help desk tool makes it really easy to engage with customers."</p>
+          <h3>Hongkiat L.</h3>
+          <p>Editor-in-chief</p>
+          </div>
+          
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        
+      </div>
+
+</div>
+
+<div class="down">
+    <h1>Do It All With EngageBay</h1>
+    <p>Stop paying thousands of dollars to dozens of marketing, sales, and support software. Experience the world's most <br>affordable, unified software. EngageBay's all-in-one CRM software is the most comprehensive solution for your<br> business.</p>
+</div>
+
+<div id="box">
+    <div >
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/automation.svg" alt="">
+        <h4>Automations</h4>
+
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/calling.svg " alt="">
+        <h4>Calling</h4>
+    </div>
+    <div>
+        <img src=" https://cdn5.engagebay.com/new/assets/img/icons/eb-features/company-management.svg" alt="">
+        <h4> Company Management</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/contact-management.svg " alt="">
+        <h4>Contact Management</h4>
+    </div>
+    <div>
+        <img src=" https://cdn5.engagebay.com/new/assets/img/icons/eb-features/deal-management.svg" alt="">
+        <h4>Deal Management</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/email-broadcast.svg " alt="">
+        <h4>Email Broadcast</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/email-sequences.svg " alt="">
+        <h4>Email Sequence</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/email-template-builder.svg " alt="">
+        <h4>Email Template Builder</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/forms.svg " alt="">
+        <h4>Forms</h4>
+    </div>
+    <div>
+        <img src=" https://cdn5.engagebay.com/new/assets/img/icons/eb-features/help-desk.svg" alt="">
+        <h4>Help Desk</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/landing-pages.svg " alt="">
+        <h4>Landing Pages</h4>
+    </div>
+    <div>
+        <img src=" https://cdn5.engagebay.com/new/assets/img/icons/eb-features/live-chat.svg" alt="">
+        <h4>Live Chat</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/milestone-tracking.svg " alt="">
+        <h4>Milestone Tracking</h4>
+    </div>
+    <div>
+        <img src=" https://cdn5.engagebay.com/new/assets/img/icons/eb-features/calendar.svg" alt="">
+        <h4>Calendar</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/products.svg " alt="">
+        <h4>Products</h4>
+    </div>
+    <div>
+        <img src=" https://cdn5.engagebay.com/new/assets/img/icons/eb-features/proposal.svg" alt="">
+        <h4>Proposal</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/push-notifications.svg " alt="">
+        <h4>Push Notifications
+        </h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/segmentation.svg " alt="">
+        <h4>Segmentation</h4>
+    </div>
+    <div>
+        <img src=" https://cdn5.engagebay.com/new/assets/img/icons/eb-features/site-messaging.svg" alt="">
+        <h4>Site Messaging</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/sms-broadcast.svg " alt="">
+        <h4>SMS Broadcast</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/social-posts-scheduling.svg " alt="">
+        <h4>Social Post Scheduling</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/social-suite.svg " alt="">
+        <h4>Social Suite</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/sticky-bars.svg " alt="">
+        <h4>Sticky Bars
+        </h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/task-management.svg " alt="">
+        <h4>Task Management</h4>
+    </div>
+    <div>
+        <img src=" https://cdn5.engagebay.com/new/assets/img/icons/eb-features/team-management.svg" alt="">
+        <h4>Team Management</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/video-templates.svg " alt="">
+        <h4>Video Templates</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/web-analytics.svg " alt="">
+        <h4>Web Analytics
+        </h4>
+    </div>
+    <div>
+        <img src=" https://cdn5.engagebay.com/new/assets/img/icons/eb-features/ab-landing-pages.svg" alt="">
+        <h4>A/B Landing Pages</h4>
+    </div>
+    <div>
+        <img src=" https://cdn5.engagebay.com/new/assets/img/icons/eb-features/custom-reporting.svg" alt="">
+        <h4>Custom Reporting</h4>
+    </div>
+    <div>
+        <img src="https://cdn5.engagebay.com/new/assets/img/icons/eb-features/workflows.svg " alt="">
+        <h4>Workflows</h4>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
+
+
+
+
+
+
+
+
+
+<script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     view1 = document.querySelector(".view1")
+  
+    //  firstview
+
+     view = document.querySelector("#view>h2:nth-child(1)")
+     view.style.borderBottom = "7px solid rgb(255, 144, 33)"
+    
+
+
+
+     view.addEventListener("click",function(){
+        view1.innerText = null
+        view.style.borderBottom = "7px solid rgb(255, 144, 33)"
+        view2.style.border ="none"
+        view3.style.border ="none"
+        view4.style.border ="none"
+        div2= document.createElement("div")
+        div3= document.createElement("div")
+        div4= document.createElement("div")
+
+    h1 = document.createElement("h1")
+    h1.innerText = "Market Your Business Like the World's Best Companies"
+
+    hr = document.createElement("hr")
+
+
+    h1p1 = document.createElement("p")
+    h1p1.innerText = "With our comprehensive set of Marketing tools, including Email Marketing, Marketing Automation, Email Template Builder, Landing Page Builder, Lead Generation tools, Social Suite & more, your marketing team can take things to the next level."
+  
+    h3 = document.createElement("h3")
+    h3.innerText = "POPULAR MARKETING FEATURES"
+         
+    h3p1 = document.createElement("p")
+    h3p1.innerText = "~Email Marketing"
+   
+    h3p2 = document.createElement("p")
+    h3p2.innerText = "~Lead Generation tools"
+   
+    h3p3 = document.createElement("p")
+    h3p3.innerText = "~Marketing Automation"
+  
+    h3p4 = document.createElement("p")
+    h3p4.innerText = "~Landing Pages"
+
+    button = document.createElement("button")
+    button.innerText = "Explore Marketing Software"
+
+    image = document.createElement("img")
+    image.setAttribute("src","https://cdn5.engagebay.com/new/assets/img/tabs/home/marketing_software.png")
+
+
+    div4.append(image)
+    div3.append(h3p1,h3p2,h3p3,h3p4)
+    div2.append(h1,hr,h1p1,h3,div3,button)
+    view1.append(div2,div4)
+    
+    })
+
+
+
+    div2= document.createElement("div")
+        div3= document.createElement("div")
+        div4= document.createElement("div")
+
+    h1 = document.createElement("h1")
+    h1.innerText = "Market Your Business Like the World's Best Companies"
+
+    hr = document.createElement("hr")
+
+    h1p1 = document.createElement("p")
+    h1p1.innerText = "With our comprehensive set of Marketing tools, including Email Marketing, Marketing Automation, Email Template Builder, Landing Page Builder, Lead Generation tools, Social Suite & more, your marketing team can take things to the next level."
+  
+    h3 = document.createElement("h3")
+    h3.innerText = "POPULAR MARKETING FEATURES"
+         
+    h3p1 = document.createElement("p")
+    h3p1.innerText = "~Email Marketing"
+   
+    h3p2 = document.createElement("p")
+    h3p2.innerText = "~Lead Generation tools"
+   
+    h3p3 = document.createElement("p")
+    h3p3.innerText = "~Marketing Automation"
+  
+    h3p4 = document.createElement("p")
+    h3p4.innerText = "~Landing Pages"
+
+    button = document.createElement("button")
+    button.innerText = "Explore Marketing Software"
+
+    image = document.createElement("img")
+    image.setAttribute("src","https://cdn5.engagebay.com/new/assets/img/tabs/home/marketing_software.png")
+
+
+    div4.append(image)
+    div3.append(h3p1,h3p2,h3p3,h3p4)
+    div2.append(h1,hr,h1p1,h3,div3,button)
+    view1.append(div2,div4)
+
+
+//   second view
+
+    view2 = document.querySelector("#view>h2:nth-child(2)")
+    view2.addEventListener("click",function(){
+        view1.innerText = null
+
+        view2.style.borderBottom = "7px solid rgb(255, 144, 33)"
+        view.style.border ="none"
+        view3.style.border ="none"
+        view4.style.border ="none"
+
+        div2= document.createElement("div")
+        div3= document.createElement("div")
+        div4= document.createElement("div")
+
+    h1 = document.createElement("h1")
+    h1.innerText = "Build Lasting Customer Relationships"
+
+    hr = document.createElement("hr")
+
+    h1p1 = document.createElement("p")
+    h1p1.innerText = "Along with a full stack of software for marketing, sales, and customer service, EngageBay also offers a completely free CRM at its core. While they’re powerful when used individually, they are at their best when used together."
+  
+    h3 = document.createElement("h3")
+    h3.innerText = "POPULAR FEATURES"
+         
+    h3p1 = document.createElement("p")
+    h3p1.innerText = "~Contact Management"
+   
+    h3p2 = document.createElement("p")
+    h3p2.innerText = "~Tasks"
+   
+    h3p3 = document.createElement("p")
+    h3p3.innerText = "~Deal Pipeline"
+  
+    h3p4 = document.createElement("p")
+    h3p4.innerText = "~Appointment Scheduling"
+
+    button = document.createElement("button")
+    button.innerText = "Explore Free CRM Features"
+
+    image = document.createElement("img")
+    image.setAttribute("src","https://cdn5.engagebay.com/new/assets/img/tabs/home/free_crm_features.png")
+
+
+    div4.append(image)
+    div3.append(h3p1,h3p2,h3p3,h3p4)
+    div2.append(h1,hr,h1p1,h3,div3,button)
+    view1.append(div2,div4)
+    
+    })
+
+
+    // thirdview
+
+
+    view3 = document.querySelector("#view>h2:nth-child(3)")
+    view3.addEventListener("click",function(){
+        view1.innerText = null
+
+        view3.style.borderBottom = "7px solid rgb(255, 144, 33)"
+        view.style.border ="none"
+        view2.style.border ="none"
+        view4.style.border ="none"
+
+        div2= document.createElement("div")
+        div3= document.createElement("div")
+        div4= document.createElement("div")
+
+    h1 = document.createElement("h1")
+    h1.innerText = "Sell Like the Pros"
+
+    hr = document.createElement("hr")
+
+    h1p1 = document.createElement("p")
+    h1p1.innerText = "With our exhaustive set of Sales tools such as Contact Management, Email Tracking, Telephony, Appointment Scheduling, Project Management, Gamification."
+  
+    h3 = document.createElement("h3")
+    h3.innerText = "POPULAR SALES AUTOMATION FEATURES"
+         
+    h3p1 = document.createElement("p")
+    h3p1.innerText = "~Telephony"
+   
+    h3p2 = document.createElement("p")
+    h3p2.innerText = "~Sales Automation"
+   
+    h3p3 = document.createElement("p")
+    h3p3.innerText = "~Multiple Deal Pipelines"
+  
+    h3p4 = document.createElement("p")
+    h3p4.innerText = "~Email Sequences"
+
+    button = document.createElement("button")
+    button.innerText = "Explore Sales Software"
+
+    image = document.createElement("img")
+    image.setAttribute("src","https://cdn5.engagebay.com/new/assets/img/tabs/home/sales_software.png")
+
+
+    div4.append(image)
+    div3.append(h3p1,h3p2,h3p3,h3p4)
+    div2.append(h1,hr,h1p1,h3,div3,button)
+    view1.append(div2,div4)
+    
+    })
+
+
+    // fourthview
+
+    view4 = document.querySelector("#view>h2:nth-child(4)")
+    view4.addEventListener("click",function(){
+        view1.innerText = null
+
+        view4.style.borderBottom = "7px solid rgb(255, 144, 33)"
+        view2.style.border ="none"
+        view3.style.border ="none"
+        view.style.border ="none"
+
+        div2= document.createElement("div")
+        div3= document.createElement("div")
+        div4= document.createElement("div")
+
+    h1 = document.createElement("h1")
+    h1.innerText = "Provide Awesome Support to Your Customers"
+
+    hr = document.createElement("hr")
+
+    h1p1 = document.createElement("p")
+    h1p1.innerText = "With our seamless stack of Service tools such as Ticketing, Helpdesk, Customer Feedback Forms, Knowledge Base, Canned Responses and your support team can now connect better, resolve faster, and retain your customers for a lifetime.."
+  
+    h3 = document.createElement("h3")
+    h3.innerText = "POPULAR TICKETING FEATURES"
+         
+    h3p1 = document.createElement("p")
+    h3p1.innerText = "~Multiple Ticketing Groups"
+   
+    h3p2 = document.createElement("p")
+    h3p2.innerText = "~Macros"
+   
+    h3p3 = document.createElement("p")
+    h3p3.innerText = "~Ticket Views"
+  
+    h3p4 = document.createElement("p")
+    h3p4.innerText = "~Help Desk Automation"
+
+    button = document.createElement("button")
+    button.innerText = "Explore Help Desk Software"
+
+    image = document.createElement("img")
+    image.setAttribute("src","https://cdn5.engagebay.com/new/assets/img/tabs/home/helpdesk_software.png")
+
+
+    div4.append(image)
+    div3.append(h3p1,h3p2,h3p3,h3p4)
+    div2.append(h1,hr,h1p1,h3,div3,button)
+    view1.append(div2,div4)
+    
+    })
+
+
+
+
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  
+  loop: true,
+
+  
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+ 
+});
+
+
+
+
+
+    
+</script>
 
 </html>
