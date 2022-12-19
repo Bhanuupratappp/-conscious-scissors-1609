@@ -1,5 +1,5 @@
 *{
-     font-family: 'Merriweather Sans', sans-serif; */
+     font-family: 'Merriweather Sans', sans-serif;
 }
 #navbar {
     display: flex;
@@ -7,6 +7,7 @@
     justify-content: space-around;
     gap: 250px;
     height: 50px;
+    cursor: pointer;
     
 }
 
@@ -32,6 +33,12 @@
     border-radius: 5px;
     color: white;
 }
+#demo:hover{
+    border:2px solid rgb(255, 144, 33) ;
+    background-color: white;
+    color: rgb(70, 197, 202);
+    transition: all .2s linear;
+}
 
 #signup {
     padding: 10px 25px 10px 25px;
@@ -44,6 +51,12 @@
     color: white;
 
 
+}
+#signup:hover{
+    border:2px solid rgb(70, 197, 202) ;
+    background-color: white;
+    color: rgb(255, 144, 33);
+    transition: all .2s linear;
 }
 
 #about {
@@ -63,7 +76,7 @@
     padding: 20px 200px 20px 20px;
 }
 
-#insideInput {
+.insideInput {
     border: 3px solid rgb(255, 153, 27);
     display: inline;
     padding: 5px 20px 20px 20px;
@@ -193,6 +206,7 @@ hr+div {
 .view{
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
+    
 }
 #view{
 display: flex;
@@ -201,6 +215,7 @@ font-family: 'Merriweather Sans', sans-serif;
 }
 #view>h2{
     padding-bottom: 20px;
+    cursor: pointer;
     
 }
 
@@ -303,5 +318,135 @@ height: fit-content;
 .down p{
     color: rgb(137, 135, 135);
 }
+#bottom{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 130px;
+}
+.inside button{
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 40px;
+    background-color: rgb(70, 197, 202);
+    color: white;
+}
+.inside input{
+    border: none;
+    padding: 20px 200px 8px 20px}
+.inside{
+    
+   
+    
+    font-size: 40px;
+    margin-top: 50px;
+    
+    
+}
 
+.insideInput button:hover{
+    background-color: rgb(255, 153, 27);
+    padding: 12px 35px 12px 35px;
+    transition: all .3s linear;
+}
+#bottom h1{
+    color:rgb(70, 197, 202) ;
+}
+#partnerList{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-content: space-around;
+    text-align: center;
+    
+}
+#partner{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+#partnerList img{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 100px;
+}
+#footer{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 140px;
+   
+   
+   
+   padding-top: 50px;
+}
+#details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+#footer img{
+    width: 400px;
+}
+#footer input{
+    width: 300px;
+    padding: 15px;
+
+}
+#footer button{
+    margin-top: 20px;
+    padding: 14px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    
+
+}
+.btn1{
+    background-color:rgb(221, 139, 58) ;
+    color: white;
+}
+#footer button:hover{
+    background-color: rgb(70, 197, 202);
+}
+#footer h1{
+    color: rgb(82, 79, 79);
+    font-weight: bold;
+}
+#option{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 70px;
+    gap: 20px;
+   
+    text-align: center;
+    
+}
+#bk{
+    background-image: url(./logo/bk.jpg);
+}
+#option div{
+    background-color: rgb(68, 66, 66);
+    color: white;
+   padding: 20px;
+   border-radius: 10px;
+   cursor: pointer;
+  margin-bottom: 70px;
+   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#eop{
+    padding: 20px;
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    line-height: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    font-size: 12px;
+}
+#eop img{
+    width: 250px;
+    margin-top: 10px;
+}
+#eop p{
+    margin-top: 50px;
+}
 
